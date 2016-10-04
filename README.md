@@ -55,7 +55,7 @@ If you create a great application, all we ask is that you provide a link for peo
 
 License
 ---------------------------------
-Dongle Android SDK is available under the Apache License, Version 2.0 license. See the [LICENSE.txt](https://raw.githubusercontent.com/WowWeeLabs/Dongle-Android-SDK/master/LICENSE.md) file for more info.
+Dongle Android SDK is available under the Apache License, Version 2.0 license. See the [LICENSE](https://github.com/WowWeeLabs/Dongle-Android-SDK/blob/master/LICENSE) file for more info.
 
 You are free to use our SDK in your own projects whether free or paid. There are no restrictions on releasing into Google Play or other stores. We do ask that you clearly differentiate your app from the official app so that users do not get confused.
 
