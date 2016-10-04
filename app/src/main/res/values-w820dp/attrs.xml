@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="MagicTextView">
+		<attr name="innerShadowColor" format="color"/>
+		<attr name="innerShadowRadius" format="float"/>
+		<attr name="innerShadowDx" format="float"/>
+		<attr name="innerShadowDy" format="float"/>
+		
+		<attr name="outerShadowColor" format="color"/>
+		<attr name="outerShadowRadius" format="float"/>
+		<attr name="outerShadowDx" format="float"/>
+		<attr name="outerShadowDy" format="float"/>
+		
+		<attr name="typeface" format="string" />
+		
+		<attr name="foreground" format="reference|color"/>
+		<attr name="bg" format="reference|color"/>
+		
+		<attr name="strokeWidth" format="float" />
+		<attr name="strokeMiter" format="float" />
+		<attr name="strokeColor" format="color" />
+		<attr name="strokeJoinStyle">
+		    <enum name="miter" value="0" />
+		    <enum name="bevel" value="1" />
+		    <enum name="round" value="2" />
+		</attr>
+		
+		<attr name="gradientTop" format="color" />
+		<attr name="gradientBottom" format="color" />
+	</declare-styleable>
+
+	<declare-styleable name="MaskImage">
+		<!-- Identifier for the image that represents the Imageview's content. -->
+		<!--<attr name="image" format="reference" />-->
+		<!-- crop Imageview's content same as mask -->
+		<attr name="mask" format="reference" />
+		<!-- Background Image -->
+		<!--<attr name="frame" format="reference" />-->
+	</declare-styleable>
+
+	<declare-styleable name="MultiViewPager">
+		<attr format="reference" name="matchChildWidth"/>
+		<attr name="android:maxWidth"/>
+		<attr name="android:maxHeight"/>
+	</declare-styleable>
+
+	<declare-styleable name="AutoScaleView">
+		<attr name="widthRatio" format="float" />
+		<attr name="heightRatio" format="float" />
+		<attr name="widthPixel" format="float" />
+		<attr name="heightPixel" format="float" />
+	</declare-styleable>
+
+	<declare-styleable name="Emojicon">
+		<attr name="emojiconSize" format="dimension" />
+		<attr name="emojiconTextStart" format="integer" />
+		<attr name="emojiconTextLength" format="integer" />
+		<attr name="emojiconPanelRatio" format="float" />
+		<attr name="emojiconEditTextRatio" format="float" />
+	</declare-styleable>
+
+	<dimen name="keyboard_height">250dp</dimen>
+
+	<style name="emojiDialog" parent="@android:style/Theme.Dialog">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+
+		<!-- No backgrounds, titles or window float -->
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowBackground">@null</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowIsFloating">false</item>
+	</style>
+</resources>

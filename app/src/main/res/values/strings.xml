@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LumiDongleSampleProject</string>
+
+    <string name="scanning">Scanning for Dongle</string>
+    <string name="confirm">Confirm</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+
+    <string name="toggle_text">Dongle switch</string>
+</resources>
